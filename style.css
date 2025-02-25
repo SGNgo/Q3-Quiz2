@@ -1,0 +1,42 @@
+  body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('https://wallpaperaccess.com/full/2063914.jpg');
+            color: goldenrod;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        summary {
+            background: goldenrod;
+            color: black;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 2px solid black;
+            margin-top: 10px;
+        }
+        input, select, button {
+            width: 100%;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        button {
+            background: red;
+            color: white;
+            font-weight: bold;
+        
+        }
+        img {
+            width: 250px;
+            border-radius: 10px;
+        }
